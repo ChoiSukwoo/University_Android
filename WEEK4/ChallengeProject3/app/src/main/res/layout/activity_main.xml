@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/changer3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/backgroud">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+            <ScrollView
+                android:id="@+id/challenge3ScrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/challenge3Image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </ScrollView>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/challenge3Button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▲"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/challenge3Button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▼"/>
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+            <ScrollView
+                android:id="@+id/challenge3ScrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/challenge3Image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    />
+            </ScrollView>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/changer4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/backgroud"
+        >
+        <EditText
+            android:id="@+id/challenge4EditText"
+            android:layout_width="144dp"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:textSize="18dp"
+            android:maxLength="80"
+            android:maxLines="10"/>
+        <TextView
+            android:id="@+id/challenge4TextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="0/80 바이트"
+            android:textSize="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/challenge4Button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전송"/>
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/challenge4Button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="닫기"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

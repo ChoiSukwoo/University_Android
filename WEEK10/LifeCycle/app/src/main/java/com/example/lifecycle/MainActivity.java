@@ -1,7 +1,6 @@
 package com.example.lifecycle;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.ActivityChooserView;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -11,7 +10,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
 
     EditText nameInput;
 
@@ -90,5 +88,4 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,data,Toast.LENGTH_LONG).show();
         Log.d("Main",data);
     }
-
 }

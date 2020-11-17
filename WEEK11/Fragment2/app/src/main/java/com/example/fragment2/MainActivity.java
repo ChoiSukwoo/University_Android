@@ -1,13 +1,14 @@
 package com.example.fragment2;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
+
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.ListFragment;
 
 import android.os.Bundle;
 import android.util.Log;
 
-public class MainActivity extends AppCompatActivity implements ListFragment.ImgSelectionCallback {
+public class MainActivity extends AppCompatActivity implements com.example.fragment2.ListFragment.ImgSelectionCallback {
 
     ListFragment ListFragmnet;
     ImgFragment ImgFragmnet;

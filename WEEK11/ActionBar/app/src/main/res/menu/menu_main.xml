@@ -5,15 +5,15 @@
     <item android:id="@+id/menu_refresh"
         android:title="새로고침"
         android:icon="@drawable/menu_refresh"
-        android:orderInCategory="102"
-        app:showAsAction="never"/>
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
 
 
     <item android:id="@+id/menu_search"
         android:title="검색"
-        android:icon="@drawable/menu_search"
-        android:orderInCategory="101"
-        app:showAsAction="always|withText"/>
+        android:orderInCategory="102"
+        app:showAsAction="always|withText"
+        app:actionLayout="@layout/search_layout"/>
 
 
     <item android:id="@+id/menu_setting"
@@ -21,6 +21,7 @@
         android:icon="@drawable/menu_settings"
         android:orderInCategory="100"
         app:showAsAction="ifRoom"/>
+
 
 
 </menu>

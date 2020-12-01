@@ -75,7 +75,5 @@ public class MainActivity extends AppCompatActivity {
                 actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_HOME|ActionBar.DISPLAY_USE_LOGO);
             }
         });
-
-
     }
 }

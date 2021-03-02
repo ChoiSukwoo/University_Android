@@ -1,0 +1,4 @@
+#Tue Nov 24 16:27:58 KST 2020
+base.0=D\:\\WorkSpace\\UniverSity\\University_Android\\WEEK13\\SampleDrawer\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
